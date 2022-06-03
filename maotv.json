@@ -101,15 +101,6 @@
       "filterable": 0
     },
     {
-      "key": "极速BT资源",
-      "name": "极速BT资源",
-      "type": 1,
-      "api": "https://api.jisubt.com/videos",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "海外电影",
       "name": "海外电影",
       "type": 1,
