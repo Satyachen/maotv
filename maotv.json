@@ -1,6 +1,15 @@
 {
   "sites": [
     {
+      "key": "在线之家",
+      "name": "在线之家",
+      "type": 3,
+      "api": "http://json.myaixixi.com/mtv/xpath/zxzj.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "番茄资源",
       "name": "番茄资源",
       "type": 0,
@@ -88,33 +97,6 @@
       "name": "39影视",
       "type": 0,
       "api": "https://www.39kan.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "csp_77",
-      "name": "七七影视",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "77影视",
-      "name": "77影视",
-      "type": 1,
-      "api": "https://www.77diany.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "播放呀APP",
-      "name": "播放呀APP",
-      "type": 1,
-      "api": "https://www.bofangya.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -1318,5 +1300,6 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ]
+  ],
+  "spider": "https://wuji-888.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar"
 }
