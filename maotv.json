@@ -20,6 +20,16 @@
       "filterable": 0
     },
     {
+      "key": "神速资源",
+      "name": "神速资源",
+      "type": 0,
+      "api": "https://api.sszyapi.com/api.php/provide/vod/at/xml",
+      "playUrl": "https://player.sszyplayer.com/dplayer/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "畅视影视",
       "name": "畅视影视",
       "type": 1,
@@ -400,16 +410,6 @@
       "filterable": 0
     },
     {
-      "key": "酷点资源",
-      "name": "酷点资源",
-      "type": 1,
-      "api": "https://kudian10.com/api.php/provide/vod/?ac=list",
-      "playUrl": "https://jx.kujiexi.net/m3u8.php?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "酷豆资源",
       "name": "酷豆资源",
       "type": 1,
@@ -586,93 +586,123 @@
       "group": "央视",
       "channels": [
         {
+          "name": "CCTV-4K",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221226998/index.m3u8?servicetype=1"
+          ]
+        },
+        {
           "name": "CCTV-1综合",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_CCTV-1-CQ/G_CCTV-1-CQ"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225829/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "CCTV-2财经",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_CCTV-2-CQ/G_CCTV-2-CQ"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225800/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "CCTV-3综艺",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_CCTV-3-CQ/G_CCTV-3-CQ"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227055/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "CCTV-4中文国际",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_CCTV-4-CQ/G_CCTV-4-CQ"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225802/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-5体育",
+          "name": "CCTV-5",
           "urls": [
-            "http://223.110.241.206:6610/cntv/live1/HD-12000k-1080P-cctv5/1.m3u8"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227170/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-5+体育赛事",
+          "name": "CCTV-5+",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_CCTV-5PLUS-CQ/G_CCTV-5PLUS-CQ/"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225821/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-6电影",
+          "name": "CCTV-6",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_CCTV-6-CQ/G_CCTV-6-CQ"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227137/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-7军事农业",
+          "name": "CCTV-7",
           "urls": [
-            "http://223.110.241.206:6610/cntv/live1/HD-12000k-1080P-cctv7/1.m3u8"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225805/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-8电视剧",
+          "name": "CCTV-8",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_CCTV-8-CQ/G_CCTV-8-CQ"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227174/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-9纪录",
+          "name": "CCTV-9",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_CCTV-9-HD-265-5M/G_CCTV-9-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225820/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-10科教",
+          "name": "CCTV-10",
           "urls": [
-            "http://223.110.241.206:6610/cntv/live1/HD-8000k-1080P-cctv10/1.m3u8"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225814/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-12社会与法",
+          "name": "CCTV-11",
           "urls": [
-            "http://223.110.241.206:6610/cntv/live1/HD-8000k-1080P-cctv12/1.m3u8"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225815/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-13新闻",
+          "name": "CCTV-12",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_CCTV-13-HQ/G_CCTV-13-HQ"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225816/index.m3u8?servicetype=1"
           ]
         },
         {
-          "name": "CCTV-14少儿",
+          "name": "CCTV-13",
           "urls": [
-            "http://223.110.241.206:6610/cntv/live1/HD-8000k-1080P-cctv14/1.m3u8"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225817/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "CCTV-14",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225819/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "CCTV-15",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225818/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "CCTV-16",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227148/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "CCTV-17",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221226990/index.m3u8?servicetype=1"
           ]
         }
       ]
     },
     {
-      "group": "卫视",
+      "group": "地方",
       "channels": [
         {
           "name": "安徽卫视",
@@ -683,138 +713,1135 @@
         {
           "name": "北京卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_BEIJING-HD-265-5M/G_BEIJING-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225826/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "东方卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_DONGFANG-HD-265-5M/G_DONGFANG-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225828/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "广东卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_GUANGDONG-HD-265-5M/G_GUANGDONG-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225824/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "广西卫视",
+          "urls": [
+            "http://iptv.tvfix.org/hls/gxhd.m3u8"
           ]
         },
         {
           "name": "黑龙江卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_HEILONGJIANG-HD-265-5M/G_HEILONGJIANG-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225828/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "湖北卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_HUBEI-HD-265-5M/G_HUBEI-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225840/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "湖南卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_HUNAN-HD-265-5M/G_HUNAN-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225827/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "江苏卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_JIANGSU-HD-265-5M/G_JIANGSU-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225847/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "辽宁卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_LIAONING-HD-265-5M/G_LIAONING-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225832/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "山东卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_SHANDONG-HD-265-5M/G_SHANDONG-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225843/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "深圳卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_SHENZHEN-HD-265-5M/G_SHENZHEN-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225848/index.m3u8?servicetype=1"
           ]
         },
         {
           "name": "天津卫视",
           "urls": [
-            "http://223.110.241.206:6610/gitv/live1/G_TIANJIN-HD-265-5M/G_TIANJIN-HD-265-5M"
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225830/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "河南卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227095/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "浙江卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225825/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "重庆卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225831/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "安徽卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225844/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "江西卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221225834/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "甘肃卫视",
+          "urls": [
+            "http://111.63.117.13:6060/030000001000/G_GANSU/G_GANSU.m3u8"
+          ]
+        },
+        {
+          "name": "东南卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227040/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "四川卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227182/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "贵州卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221226827/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "海南卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227216/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "河北卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227063/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "吉林卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "厦门卫视",
+          "urls": [
+            "http://39.135.55.105:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1"
+          ]
+        },
+        {
+          "name": "山西卫视",
+          "urls": [
+            "http://111.63.117.13:6060/030000001000/SXWS/SXWS.m3u8"
+          ]
+        },
+        {
+          "name": "三沙卫视",
+          "urls": [
+            "http://pull2.ssws.tv/live/SswsTV20210803.m3u8"
           ]
         }
       ]
     },
     {
-      "group": "足球",
+      "group": "CHC频道",
       "channels": [
         {
-          "name": "五星体育",
+          "name": "CHC高清电影",
           "urls": [
-            "http://112.132.209.46/liveplay-kk.rtxapp.com/live/program/live/ssty/4000000/mnf.m3u8"
+            "http://iptv.tvfix.org/hls/chchd.m3u8"
           ]
         },
         {
-          "name": "魅力足球",
+          "name": "CHC家庭影院",
           "urls": [
-            "http://183.207.255.188/live/program/live/mlyyhd/4000000/mnf.m3u8"
+            "http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8"
           ]
         },
         {
-          "name": "劲爆体育",
+          "name": "CHC动作电影",
           "urls": [
-            "http://112.132.209.46/liveplay-kk.rtxapp.com/live/program/live/jbtyhd/4000000/mnf.m3u8"
-          ]
-        },
-        {
-          "name": "足球频道",
-          "urls": [
-            "http://nmglive.imfc.cn/5n1r1c/182396.m3u8"
-          ]
-        },
-        {
-          "name": "广东体育",
-          "urls": [
-            "http://149.129.100.78/guangdong.php?id=47"
+            "http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8"
           ]
         }
       ]
     },
     {
-      "group": "港台",
+      "group": "中国",
       "channels": [
         {
-          "name": "凤凰卫视",
+          "name": "纪实人文",
           "urls": [
-            "http://117.169.124.37:6610/ysten-businessmobile/live/fhchinese/1.m3u8"
+            "http://39.134.65.162/PLTV/88888888/224/3221225673/index.m3u8",
+            "http://39.134.115.163:8080/PLTV/88888910/224/3221225655/index.m3u8"
           ]
         },
         {
-          "name": "凤凰资讯",
+          "name": "全纪实",
           "urls": [
-            "http://223.110.235.13/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8",
-            "http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8"
+            "http://223.111.195.58/keonline.shanghai.liveplay.qq.com/live/program/live/qjshd/4000000/mnf.m3u8"
           ]
         },
         {
-          "name": "天映经典",
+          "name": "金鹰纪实",
           "urls": [
-            "http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8"
+            "http://111.20.33.93/TVOD/88888893/224/3221226351/index.m3u8"
+          ]
+        },
+        {
+          "name": "生活时尚",
+          "urls": [
+            "http://shbu.live.bestvcdn.com.cn:8080/live/program/live/shsshd/4000000/mnf.m3u8"
+          ]
+        },
+        {
+          "name": "都市剧场",
+          "urls": [
+            "http://111.20.33.93/TVOD/88888893/224/3221226581/index.m3u8"
+          ]
+        },
+        {
+          "name": "黑莓电影",
+          "urls": [
+            "http://39.135.138.59:18890/PLTV/88888910/224/3221225769/index.m3u8"
+          ]
+        },
+        {
+          "name": "黑莓动画",
+          "urls": [
+            "http://183.207.249.7/PLTV/3/224/3221225555/index.m3u8"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "北京",
+      "channels": [
+        {
+          "name": "北京IPTV淘电影",
+          "urls": [
+            "http://39.134.135.81/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/index.m3u8?servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&GuardEncType=2&accountinfo=3QGHZfaujB8rRCsAsCvwpxxlHr4QY7xmzJA0CWZ2m2oFrdR%2B0WqiDAHoOrKmOBjJo1DAVyGMxV75D0k9A8UW52%2FrO%2F0g1FiOsgmHLskIhGej57NNTIcVyR%2FC8%2FqFakBO7Z60nQmH%2FQdgWVzAI0y58w%3D%3D%3A20211105223205%2C10000100000000050000000003887498%2CF6D75A298389DD1E7C3B7D397327CA23%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2CEND"
+          ]
+        },
+        {
+          "name": "北京IPTV淘剧场",
+          "urls": [
+            "http://39.134.134.84/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/index.m3u8?servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&GuardEncType=2&accountinfo=3QGHZfaujB8rRCsAsCvwpxxlHr4QY7xmzJA0CWZ2m2oFrdR%2B0WqiDAHoOrKmOBjJo1DAVyGMxV75D0k9A8UW52%2FrO%2F0g1FiOsgmHLskIhGej57NNTIcVyR%2FC8%2FqFakBOatI%2F3LD77f6VT%2BVI0tODRw%3D%3D%3A20211105223205%2C10000100000000050000000003887497%2CF6D75A298389DD1E7C3B7D397327CA23%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2CEND"
+          ]
+        },
+        {
+          "name": "北京IPTV淘娱乐",
+          "urls": [
+            "http://39.134.134.88/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226551/index.m3u8?servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&GuardEncType=2&accountinfo=3QGHZfaujB8rRCsAsCvwpxxlHr4QY7xmzJA0CWZ2m2oFrdR%2B0WqiDAHoOrKmOBjJo1DAVyGMxV75D0k9A8UW52%2FrO%2F0g1FiOsgmHLskIhGej57NNTIcVyR%2FC8%2FqFakBOtChdQBj46BMs%2FmbjOB0PZw%3D%3D%3A20211105223205%2C10000100000000050000000003887499%2CF6D75A298389DD1E7C3B7D397327CA23%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2CEND"
+          ]
+        },
+        {
+          "name": "北京IPTV萌宠TV",
+          "urls": [
+            "http://39.134.134.84/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/index.m3u8?servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&GuardEncType=2&accountinfo=3QGHZfaujB8rRCsAsCvwpxxlHr4QY7xmzJA0CWZ2m2oFrdR%2B0WqiDAHoOrKmOBjJo1DAVyGMxV75D0k9A8UW52%2FrO%2F0g1FiOsgmHLskIhGej57NNTIcVyR%2FC8%2FqFakBOSDD3mErwuVWF5DqfHIW%2FMQ%3D%3D%3A20211105223205%2C10000100000000050000000003887495%2CF6D75A298389DD1E7C3B7D397327CA23%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2CEND"
+          ]
+        },
+        {
+          "name": "北京IPTV淘BABY",
+          "urls": [
+            "http://39.134.134.89/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226554/index.m3u8?servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&GuardEncType=2&accountinfo=3QGHZfaujB8rRCsAsCvwpxxlHr4QY7xmzJA0CWZ2m2oFrdR%2B0WqiDAHoOrKmOBjJo1DAVyGMxV75D0k9A8UW52%2FrO%2F0g1FiOsgmHLskIhGej57NNTIcVyR%2FC8%2FqFakBOBGhARyizMEPlAOe9nM1b5Q%3D%3D%3A20211105223205%2C10000100000000050000000003887496%2CF6D75A298389DD1E7C3B7D397327CA23%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2CEND"
+          ]
+        },
+        {
+          "name": "北京IPTV大健康",
+          "urls": [
+            "http://39.134.134.88/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226556/index.m3u8?servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&GuardEncType=2&accountinfo=3QGHZfaujB8rRCsAsCvwpxxlHr4QY7xmzJA0CWZ2m2oFrdR%2B0WqiDAHoOrKmOBjJo1DAVyGMxV75D0k9A8UW52%2FrO%2F0g1FiOsgmHLskIhGej57NNTIcVyR%2FC8%2FqFakBOwqRuq1wlVOXKPSxUnb4JNQ%3D%3D%3A20211105223205%2C10000100000000050000000003887494%2CF6D75A298389DD1E7C3B7D397327CA23%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2CEND"
+          ]
+        },
+        {
+          "name": "北京文艺",
+          "urls": [
+            "http://iptv.tvfix.org/hls/brtv2hd.m3u8"
+          ]
+        },
+        {
+          "name": "北京科教",
+          "urls": [
+            "http://iptv.tvfix.org/hls/brtv3hd.m3u8"
+          ]
+        },
+        {
+          "name": "北京影视",
+          "urls": [
+            "http://iptv.tvfix.org/hls/brtv4hd.m3u8"
+          ]
+        },
+        {
+          "name": "北京财经",
+          "urls": [
+            "http://iptv.tvfix.org/hls/brtv5hd.m3u8"
+          ]
+        },
+        {
+          "name": "北京生活",
+          "urls": [
+            "http://iptv.tvfix.org/hls/brtv7hd.m3u8"
+          ]
+        },
+        {
+          "name": "BTV青年",
+          "urls": [
+            "http://iptv.tvfix.org/hls/brtv8hd.m3u8"
+          ]
+        },
+        {
+          "name": "北京新闻",
+          "urls": [
+            "http://iptv.tvfix.org/hls/brtv9hd.m3u8"
+          ]
+        },
+        {
+          "name": "北京卡酷少儿",
+          "urls": [
+            "http://iptv.tvfix.org/hls/brtv10hd.m3u8"
+          ]
+        },
+        {
+          "name": "北京冬奥纪实",
+          "urls": [
+            "http://iptv.tvfix.org/hls/brtv11hd.m3u8"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "上海",
+      "channels": [
+        {
+          "name": "上海新闻综合",
+          "urls": [
+            "http://iptv.tvfix.org/hls/shxwzhhd.m3u8"
+          ]
+        },
+        {
+          "name": "上海东方影视",
+          "urls": [
+            "http://iptv.tvfix.org/hls/shdfyshd.m3u8"
+          ]
+        },
+        {
+          "name": "上海都市频道",
+          "urls": [
+            "http://iptv.tvfix.org/hls/shdspdhd.m3u8"
+          ]
+        },
+        {
+          "name": "上视外语频道",
+          "urls": [
+            "http://iptv.tvfix.org/hls/shwypdhd.m3u8"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "港澳",
+      "channels": [
+        {
+          "name": "翡翠台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1021.m3u8"
+          ]
+        },
+        {
+          "name": "明珠台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1020.m3u8"
+          ]
+        },
+        {
+          "name": "無線新聞",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1012.m3u8"
+          ]
+        },
+        {
+          "name": "無線財經",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1012.m3u8"
+          ]
+        },
+        {
+          "name": "J2",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1006.m3u8"
+          ]
+        },
+        {
+          "name": "TVB经典",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1003.m3u8"
+          ]
+        },
+        {
+          "name": "TVB娱乐新闻",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1001.m3u8"
           ]
         },
         {
           "name": "TVB星河",
           "urls": [
-            "http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8"
+            "http://iptv12k.com:35461/live/test167/12345/1000.m3u8"
           ]
         },
         {
-          "name": "TVB翡翠",
+          "name": "有線603",
           "urls": [
-            "http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=188&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=&Pcontent_id=.m3u8"
+            "http://iptv12k.com:35461/live/test167/12345/1023.m3u8"
+          ]
+        },
+        {
+          "name": "有線18",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1022.m3u8"
+          ]
+        },
+        {
+          "name": "有線新聞",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1018.m3u8"
+          ]
+        },
+        {
+          "name": "有線體育",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1017.m3u8"
+          ]
+        },
+        {
+          "name": "NOW直播",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1015.m3u8"
+          ]
+        },
+        {
+          "name": "NOW财经",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1002.m3u8"
+          ]
+        },
+        {
+          "name": "NOW体育",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1014.m3u8"
+          ]
+        },
+        {
+          "name": "香港开电视",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1013.m3u8"
+          ]
+        },
+        {
+          "name": "电影1台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1010.m3u8"
+          ]
+        },
+        {
+          "name": "HITS",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1009.m3u8"
+          ]
+        },
+        {
+          "name": "VIU TV",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1008.m3u8"
+          ]
+        },
+        {
+          "name": "VIU SIX",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1007.m3u8"
+          ]
+        },
+        {
+          "name": "RHK 32",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1005.m3u8"
+          ]
+        },
+        {
+          "name": "RHK 31",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1004.m3u8"
+          ]
+        },
+        {
+          "name": "香港凤凰",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/999.m3u8"
+          ]
+        },
+        {
+          "name": "凤凰资讯",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/998.m3u8"
+          ]
+        },
+        {
+          "name": "凤凰中文",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/997.m3u8"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "台湾",
+      "channels": [
+        {
+          "name": "民视HD",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/5204.m3u8"
+          ]
+        },
+        {
+          "name": "TVBS-精彩台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/4842.m3u8"
+          ]
+        },
+        {
+          "name": "壹电视新闻台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1293.m3u8"
+          ]
+        },
+        {
+          "name": "年代新闻",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1292.m3u8"
+          ]
+        },
+        {
+          "name": "中视",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1291.m3u8"
+          ]
+        },
+        {
+          "name": "台视",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1290.m3u8"
+          ]
+        },
+        {
+          "name": "公视",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1289.m3u8"
+          ]
+        },
+        {
+          "name": "三立inews",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1288.m3u8"
+          ]
+        },
+        {
+          "name": "三立都会",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1287.m3u8"
+          ]
+        },
+        {
+          "name": "三立台湾",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1286.m3u8"
+          ]
+        },
+        {
+          "name": "三立新闻",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1285.m3u8"
+          ]
+        },
+        {
+          "name": "八大戏剧",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1284.m3u8"
+          ]
+        },
+        {
+          "name": "八大综合",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1283.m3u8"
+          ]
+        },
+        {
+          "name": "八大第一",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1282.m3u8"
+          ]
+        },
+        {
+          "name": "八大娱乐",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1281.m3u8"
+          ]
+        },
+        {
+          "name": "东森综合",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1280.m3u8"
+          ]
+        },
+        {
+          "name": "中天亚洲CTI Asia",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1278.m3u8"
+          ]
+        },
+        {
+          "name": "中天娱乐",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1277.m3u8"
+          ]
+        },
+        {
+          "name": "中天新闻",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1276.m3u8"
+          ]
+        },
+        {
+          "name": "东森财经",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1275.m3u8"
+          ]
+        },
+        {
+          "name": "中视经典",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1274.m3u8"
+          ]
+        },
+        {
+          "name": "中视菁采",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1273.m3u8"
+          ]
+        },
+        {
+          "name": "TVBS",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1272.m3u8"
+          ]
+        },
+        {
+          "name": "TVBS-G欢乐",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1271.m3u8"
+          ]
+        },
+        {
+          "name": "FOX NEWS",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1270.m3u8"
+          ]
+        },
+        {
+          "name": "HBO",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1266.m3u8"
+          ]
+        },
+        {
+          "name": "HBO家庭",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1265.m3u8"
+          ]
+        },
+        {
+          "name": "HBO强档",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1264.m3u8"
+          ]
+        },
+        {
+          "name": "HBO原创",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1263.m3u8"
+          ]
+        },
+        {
+          "name": "JET TV",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1262.m3u8"
+          ]
+        },
+        {
+          "name": "星卫HD电影",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1261.m3u8"
+          ]
+        },
+        {
+          "name": "美亚电影",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1260.m3u8"
+          ]
+        },
+        {
+          "name": "美食星球",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1259.m3u8"
+          ]
+        },
+        {
+          "name": "卫视电影台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1258.m3u8"
+          ]
+        },
+        {
+          "name": "卫视中文台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1257.m3u8"
+          ]
+        },
+        {
+          "name": "东森新闻",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1180.m3u8"
+          ]
+        },
+        {
+          "name": "东森洋片",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1256.m3u8"
+          ]
+        },
+        {
+          "name": "东森戏剧",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1255.m3u8"
+          ]
+        },
+        {
+          "name": "东森电影",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1254.m3u8"
+          ]
+        },
+        {
+          "name": "天映经典",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1253.m3u8"
+          ]
+        },
+        {
+          "name": "CatchPlay电影台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1252.m3u8"
+          ]
+        },
+        {
+          "name": "金光布袋戏",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1251.m3u8"
+          ]
+        },
+        {
+          "name": "Smithsonian Channel",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1250.m3u8"
+          ]
+        },
+        {
+          "name": "好莱坞电影台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1249.m3u8"
+          ]
+        },
+        {
+          "name": "ELTA综合",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/679.m3u8"
+          ]
+        },
+        {
+          "name": "爱尔达影剧台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1248.m3u8"
+          ]
+        },
+        {
+          "name": "星卫娱乐",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1247.m3u8"
+          ]
+        },
+        {
+          "name": "罪案侦缉频道",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1246.m3u8"
+          ]
+        },
+        {
+          "name": "TSN 1",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1245.m3u8"
+          ]
+        },
+        {
+          "name": "TLC旅游生活",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1244.m3u8"
+          ]
+        },
+        {
+          "name": "AXN",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1243.m3u8"
+          ]
+        },
+        {
+          "name": "纬来戏剧",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1241.m3u8"
+          ]
+        },
+        {
+          "name": "纬来综合",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1240.m3u8"
+          ]
+        },
+        {
+          "name": "纬来精彩",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1239.m3u8"
+          ]
+        },
+        {
+          "name": "纬来日本",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1238.m3u8"
+          ]
+        },
+        {
+          "name": "纬来体育",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1237.m3u8"
+          ]
+        },
+        {
+          "name": "纬来电影",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1236.m3u8"
+          ]
+        },
+        {
+          "name": "动物星球",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1233.m3u8"
+          ]
+        },
+        {
+          "name": "探索频道",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1231.m3u8"
+          ]
+        },
+        {
+          "name": "探索科学",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1224.m3u8"
+          ]
+        },
+        {
+          "name": "Animax HD",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1230.m3u8"
+          ]
+        },
+        {
+          "name": "亚洲美食频道",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1229.m3u8"
+          ]
+        },
+        {
+          "name": "NBA",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1227.m3u8"
+          ]
+        },
+        {
+          "name": "TSN 4",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1225.m3u8"
+          ]
+        },
+        {
+          "name": "EYETV旅游",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1223.m3u8"
+          ]
+        },
+        {
+          "name": "国家地理野生",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1222.m3u8"
+          ]
+        },
+        {
+          "name": "ELTA体育1",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1221.m3u8"
+          ]
+        },
+        {
+          "name": "ELTA体育2",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1220.m3u8"
+          ]
+        },
+        {
+          "name": "ELTA体育3",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1219.m3u8"
+          ]
+        },
+        {
+          "name": "ELEVEN体育1",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1218.m3u8"
+          ]
+        },
+        {
+          "name": "ELEVEN体育2",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1217.m3u8"
+          ]
+        },
+        {
+          "name": "Warner TV",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1216.m3u8"
+          ]
+        },
+        {
+          "name": "BBC lifestyle",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1215.m3u8"
+          ]
+        },
+        {
+          "name": "BBC earth",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1210.m3u8"
+          ]
+        },
+        {
+          "name": "CINEMAX HD",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1214.m3u8"
+          ]
+        },
+        {
+          "name": "Travel Channel",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1213.m3u8"
+          ]
+        },
+        {
+          "name": "ESPN",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1212.m3u8"
+          ]
+        },
+        {
+          "name": "momo亲子",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1209.m3u8"
+          ]
+        },
+        {
+          "name": "DW",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1208.m3u8"
+          ]
+        },
+        {
+          "name": "CNBC",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1207.m3u8"
+          ]
+        },
+        {
+          "name": "历史频道",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1206.m3u8"
+          ]
+        },
+        {
+          "name": "历史频道2",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1201.m3u8"
+          ]
+        },
+        {
+          "name": "MTV LIVE",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1205.m3u8"
+          ]
+        },
+        {
+          "name": "大爱电视",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1204.m3u8"
+          ]
+        },
+        {
+          "name": "大爱二台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1203.m3u8"
+          ]
+        },
+        {
+          "name": "人间卫视",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1202.m3u8"
+          ]
+        },
+        {
+          "name": "新唐人亚太台",
+          "urls": [
+            "http://iptv12k.com:35461/live/test167/12345/1200.m3u8"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "第四台",
+      "channels": [
+        {
+          "name": "iBiza Media",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream1/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "iBiza Media2",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream2/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "尻尻会社",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream4/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "尻尻会社2",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream14/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "红松",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream5/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "红松2",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream6/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "HOT+",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream7/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "NYX MEDIA",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream3/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "NYX MEDIA2",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream8/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "NYX MEDIA3",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream9/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "NYX MEDIA4",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream10/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "Love61",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream11/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "Love62",
+          "urls": [
+            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream12/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "Luxury World",
+          "urls": [
+            "http://nano.teleservice.su:8080/hls/luxury.m3u8"
+          ]
+        },
+        {
+          "name": "VISIT-X TV HD (18+)",
+          "urls": [
+            "http://stream.visit-x.tv:1935/vxtv/live/playlist.m3u8"
           ]
         }
       ]
