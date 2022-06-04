@@ -1755,93 +1755,99 @@
       "group": "第四台",
       "channels": [
         {
-          "name": "iBiza Media",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream1/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "iBiza Media2",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream2/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "尻尻会社",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream4/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "尻尻会社2",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream14/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "红松",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream5/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "红松2",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream6/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "HOT+",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream7/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "NYX MEDIA",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream3/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "NYX MEDIA2",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream8/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "NYX MEDIA3",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream9/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "NYX MEDIA4",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream10/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "Love61",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream11/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "Love62",
-          "urls": [
-            "https://a2s.1919hdtv.com:2096/live/_definst_/Stream12/playlist.m3u8"
-          ]
-        },
-        {
-          "name": "Luxury World",
-          "urls": [
-            "http://nano.teleservice.su:8080/hls/luxury.m3u8"
-          ]
-        },
-        {
           "name": "VISIT-X TV HD (18+)",
           "urls": [
             "http://stream.visit-x.tv:1935/vxtv/live/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "Hot",
+          "urls": [
+            "p2p://51.81.90.178:9906/88652a8699964209acf41b25e2c15094"
+          ]
+        },
+        {
+          "name": "Happy",
+          "urls": [
+            "p2p://51.81.90.178:9906/bb9503e2799342cfbc406a8ee2783367"
+          ]
+        },
+        {
+          "name": "彩虹e台",
+          "urls": [
+            "p2p://51.81.90.178:9906/abf66e1926ce4018b7b059016c3e2d9b"
+          ]
+        },
+        {
+          "name": "彩虹電影台",
+          "urls": [
+            "p2p://51.81.90.178:9906/d4c614b8b1e9426a858fb8331d47f4a4"
+          ]
+        },
+        {
+          "name": "K頻道",
+          "urls": [
+            "p2p://51.81.90.178:9906/04538c5c882f4f34b22ae5342aa666b7"
+          ]
+        },
+        {
+          "name": "Look TV",
+          "urls": [
+            "p2p://51.81.90.178:9906/e94eb5756d7a42b3adf338b1a4a5344a"
+          ]
+        },
+        {
+          "name": "驚豔成人電影台",
+          "urls": [
+            "p2p://51.81.90.178:9906/bcfdd9d57f1544dcaa10e84a2f239f19"
+          ]
+        },
+        {
+          "name": "香蕉台",
+          "urls": [
+            "p2p://51.81.90.178:9906/7264623a28ba4b498d0d0c5b08154c28s"
+          ]
+        },
+        {
+          "name": "潘朵啦高畫質玩美台",
+          "urls": [
+            "p2p://51.81.90.178:9906/22366d1ff0e64c5b870ff01b7e4bb8d4"
+          ]
+        },
+        {
+          "name": "潘朵啦高畫質粉紅台",
+          "urls": [
+            "p2p://51.81.90.178:9906/6ffed66679ef45d9810f116e785a2a53"
+          ]
+        },
+        {
+          "name": "JStar極限台電影頻道",
+          "urls": [
+            "p2p://51.81.90.178:9906/47b422bd6c57400484fa154649963af0"
+          ]
+        },
+        {
+          "name": "松視1台",
+          "urls": [
+            "p2p://51.81.90.178:9906/2b2051e6c8a24f18a0ec7ca6f41ca840"
+          ]
+        },
+        {
+          "name": "松視2台",
+          "urls": [
+            "p2p://51.81.90.178:9906/b5eb6088e0bb4aa692bf7209bcf0c4b1"
+          ]
+        },
+        {
+          "name": "松視3台",
+          "urls": [
+            "p2p://51.81.90.178:9906/7cda1cc3c22944f5be2d5cad8b44340d"
+          ]
+        },
+        {
+          "name": "PLAYBOY",
+          "urls": [
+            "p2p://51.81.90.178:9906/264546d06a06432bbbb39ed82934c78b"
           ]
         }
       ]
