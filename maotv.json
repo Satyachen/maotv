@@ -39,19 +39,20 @@
       "filterable": 0
     },
     {
-      "key": "奈菲迷",
-      "name": "奈菲迷",
-      "type": 1,
-      "api": "https://app.netflixmi.com/ruifenglb_api.php/provide/vod/",
+      "key": "英皇官采",
+      "name": "英皇官采",
+      "type": 0,
+      "api": "https://apicdn.vipm3u8.com/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
-      "key": "英皇官采",
-      "name": "英皇官采",
+      "key": "北斗七星网",
+      "name": "北斗七星网",
       "type": 0,
-      "api": "https://apicdn.vipm3u8.com/xml",
+      "api": "https://api.bdxapi.com/api.php/provide/vod/at/xml",
+      "playUrl": "https://player.bdxzym3u8.com/dplayer/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -566,6 +567,16 @@
       "type": 1,
       "api": "https://apihjzy.com/api.php/provide/vod/?ac=list",
       "playUrl": "https://m3u8.hjimg7.com/dp/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "淫窝资源",
+      "name": "淫窝资源",
+      "type": 0,
+      "api": "https://api.yinwoapi.com/api.php/provide/vod/at/xml",
+      "playUrl": "https://player.yinwoplayer.com/m3u8/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
