@@ -32,8 +32,8 @@
     {
       "key": "快车资源",
       "name": "快车资源",
-      "type": 0,
-      "api": "https://caiji.kczyapi.com/api.php/provide/vod/at/xml/",
+      "type": 1,
+      "api": "https://caiji.kczyapi.com/api.php/provide/vod/?ac=list",
       "playUrl": "https://jiexi.kczyapi.com/m3u8/?url=",
       "searchable": 1,
       "quickSearch": 1,
@@ -53,15 +53,6 @@
       "name": "畅视影视",
       "type": 1,
       "api": "http://app.reboju.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "橘猫影视",
-      "name": "橘猫影视",
-      "type": 0,
-      "api": "https://www.zitv.cc/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -2672,5 +2663,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "https://jar-123.coding.net/p/m/d/m/git/raw/master/custom_spider_0330.jar;md5;01a4ac9109a0602124cee4feddc1971e"
+  "spider": "https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true;md5;c6ed6bc8285f0aca90e7cb3abf7f9caa"
 }
