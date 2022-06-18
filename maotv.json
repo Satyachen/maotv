@@ -1,16 +1,6 @@
 {
   "sites": [
     {
-      "key": "番茄资源",
-      "name": "番茄资源",
-      "type": 0,
-      "api": "http://api.fqzy.cc/api.php/provide/vod/at/xml/",
-      "playUrl": "https://jx.fqzy.cc/jx.php?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "金鹰资源",
       "name": "金鹰资源",
       "type": 0,
@@ -40,19 +30,10 @@
       "filterable": 0
     },
     {
-      "key": "8090资源",
-      "name": "8090资源",
+      "key": "天空资源",
+      "name": "天空资源",
       "type": 1,
-      "api": "http://zy.yilans.net:8090/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "畅视影视",
-      "name": "畅视影视",
-      "type": 1,
-      "api": "http://app.reboju.net/api.php/provide/vod/",
+      "api": "https://api.tiankongapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
