@@ -1,10 +1,28 @@
 {
   "sites": [
     {
+        "key": "九州资源",
+        "name": "九州资源",
+        "type": 1,
+        "api": "http://luobu.yss6080.com/mogai_api.php/v1.vod",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0
+      },
+    {
+        "key": "9E资源",
+        "name": "9E资源",
+        "type": 1,
+        "api": "http://vod.9e03.com/lvdou_api.php/v1.vod",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0
+      },
+    {
       "key": "金鹰资源",
       "name": "金鹰资源",
       "type": 0,
-      "api": "https://www.jinyingzy.com/provide/vod/from/jinyingm3u8/at/xml?ct=xml",
+      "api": "https://jyzyapi.com/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -29,6 +47,24 @@
       "quickSearch": 1,
       "filterable": 0
     },
+    {
+        "key": "次元动漫",
+        "name": "次元动漫",
+        "type": 1,
+        "api": "http://81.68.211.181/lvdou_api.php/v1.vod",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0
+      },
+      {
+        "key": "影视大全",
+        "name": "影视大全",
+        "type": 1,
+        "api": "http://app.269w.com/api.php/v1.vod",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0
+      },
     {
       "key": "天空资源",
       "name": "天空资源",
@@ -450,6 +486,15 @@
       "quickSearch": 1,
       "filterable": 0
     },
+    {
+        "key": "水蜜桃",
+        "name": "水蜜桃",
+        "type": 2,
+        "api": "https://51smt4.xyz/api.php",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0
+      },
     {
       "key": "亚环",
       "name": "亚环",
